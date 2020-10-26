@@ -7,7 +7,7 @@ function setup()
   speed = random(223,321);
   weight = random(30,52);
   thickness = random(22,83);
-  bullet = createSprite(50,200,50,50);
+  bullet = createSprite(50,200,20,20);
   bullet.velocityX=speed;
   bullet.shapeColor=color(255);
 
